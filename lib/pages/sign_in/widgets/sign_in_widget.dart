@@ -11,7 +11,7 @@ AppBar buildAppBar() {
     bottom: PreferredSize(
       preferredSize: const Size.fromHeight(1),
       child: Container(
-        color: AppColors.primaryText,
+        color: Colors.grey.withOpacity(0.5),
         height: 0.2,
       ),
     ),
