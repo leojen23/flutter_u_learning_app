@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:ulearning_app/pages/welcome/sign_in/sign_in.dart';
 import 'package:ulearning_app/pages/welcome/welcome.dart';
 
 void main() {
@@ -12,12 +13,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Welcome(),
+      initialRoute: '/',
+      routes: {
+        "/": (context) => Welcome(),
+        '/signIn': (context) => const SignIn()
+      },
     );
   }
 }
