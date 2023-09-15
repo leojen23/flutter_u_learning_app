@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:ulearning_app/common/widgets/utils/widgets/app_shadows.dart';
-import 'package:ulearning_app/common/widgets/utils/widgets/text_widgets.dart';
-import 'package:ulearning_app/pages/welcome/sign_in/sign_in.dart';
+import 'package:ulearning_app/common/widgets/app_shadows.dart';
+import 'package:ulearning_app/common/widgets/text_widgets.dart';
+import 'package:ulearning_app/pages/sign_in/sign_in.dart';
 
 Widget appOnboardingPage(PageController controller,
     {required String imagePath,

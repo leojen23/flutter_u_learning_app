@@ -1,7 +1,7 @@
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:ulearning_app/common/widgets/utils/widgets/text_widgets.dart';
+import 'package:ulearning_app/common/widgets/text_widgets.dart';
 import 'package:ulearning_app/pages/welcome/notifiers/welcome_notifier.dart';
 
 import 'package:ulearning_app/pages/welcome/widgets.dart';
